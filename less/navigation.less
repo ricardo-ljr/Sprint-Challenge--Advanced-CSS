@@ -1,1 +1,32 @@
 // Navigation code here
+
+.navigation{
+    background-color: @wild-sand;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    border: @sea-shell;
+   
+
+    h1{
+        font-size: 4.8rem;
+        padding: 15px;
+
+        @media @phone{
+            font-size: 4.4rem;
+        }
+    }
+
+    a{
+        text-decoration: none;
+        padding: 20px;
+        font-size: 1.8rem;
+        color: @river-bend;
+
+        @media @phone{
+            padding: 14px;
+        
+        }
+    }
+}
